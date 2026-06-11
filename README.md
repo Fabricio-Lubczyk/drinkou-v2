@@ -1,38 +1,26 @@
-# .
+# Drinkou
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto desenvolvido em grupo para a faculdade, com o objetivo de criar um site de clube de degustação de bebidas com design responsivo, animações e interatividade.
 
-## Recommended IDE Setup
+### Integrantes do grupo
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* Fabricio Samuel Lubczyk
+* João Gustavo Gross de Matos
+* Kawan Guimarães de Souza
 
-## Recommended Browser Setup
+### Sobre o projeto
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+O Drinkou é um site que simula um clube de degustação online, onde os usuários podem explorar detalhes sobre vinhos, destilados e a história das bebidas, além de "adquirir" combos exclusivos como o "Kit Ressaca de Páscoa".
+O foco do projeto é aplicar os principais conceitos de desenvolvimento web, organização de código, layouts complexos (Flexbox/Grid) e trabalho em equipe, usando apenas HTML e CSS.
 
-## Customize configuration
+### Tecnologias utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* HTML
+* CSS
+* Vue.js
+* Java Script
+* Git / GitHub
 
-## Project Setup
+### Status do Projeto
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Em desenvolvimento
