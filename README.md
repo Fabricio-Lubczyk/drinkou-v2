@@ -18,8 +18,23 @@ O foco do projeto é aplicar os principais conceitos de desenvolvimento web, org
 * HTML
 * CSS
 * Vue.js
-* Java Script
+* JavaScript
 * Git / GitHub
+
+### Como executar o projeto
+
+1. Certifique-se de que possui o **[Node.js](https://nodejs.org/)** instalado na sua máquina.
+2. Faça o download da pasta do projeto ou faça o clone do repositório.
+3. Abra o terminal dentro da pasta raiz do projeto.
+4. Instale as dependências necessárias executando o comando:
+   ```bash
+   npm install
+   ```
+5. Inicie o servidor local digitando o comando:
+   ```bash
+   npm run dev
+   ```
+6. Abra o link gerado no terminal (geralmente `http://localhost:5173/`) no seu navegador para ver o site a funcionar.
 
 ### Status do Projeto
 
