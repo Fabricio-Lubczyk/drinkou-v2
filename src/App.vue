@@ -244,6 +244,9 @@ import v6 from './assets/images/kawan/vinho_img6.png'
 import v7 from './assets/images/kawan/vinho_img7.png'
 import v8 from './assets/images/kawan/vinho_img8.png'
 import v9 from './assets/images/kawan/vinho_img9.png'
+import v10 from './assets/images/kawan/vinho_img10.png'
+import v11 from './assets/images/kawan/vinho_img11.png'
+import v12 from './assets/images/kawan/vinho_img12.png'
 
 export default {
   name: 'App',
@@ -295,7 +298,10 @@ export default {
         { nome: 'Alvarinho', preco: 360.00, imagem: v6 },
         { nome: 'Casillero del Diablo', preco: 75.00, imagem: v7 },
         { nome: 'Touro Loco', preco: 60.00, imagem: v8 },
-        { nome: 'Michel Chaputier Rosé', preco: 130.00, imagem: v9 }
+        { nome: 'Michel Chaputier Rosé', preco: 130.00, imagem: v9 },
+        { nome: 'Lupo Meraviglia', preco: 235.00, imagem: v10 },
+        { nome: 'Campi Rudi', preco: 154.90, imagem: v11 },
+        { nome: 'Elettra', preco: 249.00, imagem: v12 }
       ]
     }
   },
