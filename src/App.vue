@@ -184,21 +184,24 @@
     </main>
 
     <main v-if="secaoAtiva === 'kawan'" class="pagina-kawan">
+    <div class="topo-kawan">
+  
+      <div class="video-container-kawan">
+        <video autoplay muted loop class="video-kawan">
+          <source src="./assets/images/kawan/video_vinho.mp4" type="video/mp4">
+        </video>
+      </div>
+
       <div class="carrossel-kawan">
-         <img
-           :src="vinhosKawan[carrosselKawanIndex].imagem"
-           :alt="vinhosKawan[carrosselKawanIndex].nome"
-         >
+        <img
+          :src="vinhosKawan[carrosselKawanIndex].imagem"
+          :alt="vinhosKawan[carrosselKawanIndex].nome"
+        >
         <h3>{{ vinhosKawan[carrosselKawanIndex].nome }}</h3>
         <p>R$ {{ vinhosKawan[carrosselKawanIndex].preco }}</p>
       </div>
 
-      
-      <div class="video-container-kawan">
-          <video autoplay muted loop class="video-kawan">
-              <source src="./assets/images/kawan/video_vinho.mp4" type="video/mp4">
-          </video>
-      </div>
+    </div>
 
       <div class="painel-filtros-kawan">
          <div class="filtro-grupo">
