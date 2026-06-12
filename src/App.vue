@@ -184,6 +184,16 @@
     </main>
 
     <main v-if="secaoAtiva === 'kawan'" class="pagina-kawan">
+      <div class="carrossel-kawan">
+         <img
+           :src="vinhosKawan[carrosselKawanIndex].imagem"
+           :alt="vinhosKawan[carrosselKawanIndex].nome"
+         >
+        <h3>{{ vinhosKawan[carrosselKawanIndex].nome }}</h3>
+        <p>R$ {{ vinhosKawan[carrosselKawanIndex].preco }}</p>
+      </div>
+
+      
       <div class="video-container-kawan">
           <video autoplay muted loop class="video-kawan">
               <source src="./assets/images/kawan/video_vinho.mp4" type="video/mp4">
@@ -265,6 +275,7 @@ export default {
       buscaKawan: '',
       precoMaximoKawan: 400,
       vinhoSelecionado: null,
+      carrosselKawanIndex: 0,
       secoesCards: [
         { titulo: 'Kit ressaca páscoa', descricao: 'Não quer ovo? Então experimente nosso kit especial para a páscoa.', imagem: imgFabricioCombo, secao: 'fabricio', delay: '1.5s' },
         { titulo: 'História das bebidas', descricao: 'Uma jornada pelas origens e evolução dos melhores drinks.', imagem: imgGrossCachacaHome, secao: 'gross', delay: '2.5s' },
@@ -330,9 +341,20 @@ export default {
       });
     }
   },
+  mounted() {
+    setInterval(() => {
+      this.proximoVinho();
+    }, 3000);
+  },
   methods: {
     curtirHistoria(bebida) {
       bebida.curtidas++;
+    },
+    proximoVinho() {
+      this.carrosselKawanIndex =
+      this.carrosselKawanIndex < this.vinhosKawan.length - 1
+      ? this.carrosselKawanIndex + 1
+      : 0;
     },
     abrirModalVinho(vinho) {
       this.vinhoSelecionado = vinho;
@@ -368,7 +390,9 @@ export default {
     },
     slideAnterior() {
       this.carrosselIndex = this.carrosselIndex > 0 ? this.carrosselIndex - 1 : this.cachacasFabricio.length - 1;
-    }
+    },
+    
+
   }
 }
 </script>
