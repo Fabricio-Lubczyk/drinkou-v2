@@ -260,6 +260,10 @@ import v9 from './assets/images/kawan/vinho_img9.png'
 import v10 from './assets/images/kawan/vinho_img10.png'
 import v11 from './assets/images/kawan/vinho_img11.png'
 import v12 from './assets/images/kawan/vinho_img12.png'
+import v13 from './assets/images/kawan/vinho_img13.png'
+import v14 from './assets/images/kawan/vinho_img14.png'
+import v15 from './assets/images/kawan/vinho_img15.png'
+import v16 from './assets/images/kawan/vinho_img16.png'
 
 export default {
   name: 'App',
@@ -315,7 +319,11 @@ export default {
         { nome: 'Michel Chaputier Rosé', preco: 130.00, imagem: v9 },
         { nome: 'Lupo Meraviglia', preco: 235.00, imagem: v10 },
         { nome: 'Campi Rudi', preco: 154.90, imagem: v11 },
-        { nome: 'Elettra', preco: 249.00, imagem: v12 }
+        { nome: 'Elettra', preco: 249.00, imagem: v12 },
+        { nome: 'Vinho Tinto Ventisquero Explorador', preco: 33.70, imagem: v13 },
+        { nome: 'Selection 92 Reserva', preco: 44.90, imagem: v14 },
+        { nome: 'Coruja Tinto Suave Graciema', preco: 49.90, imagem: v15 },
+        { nome: 'The Grill Master Fan Club', preco: 35.51, imagem: v16 }
       ]
     }
   },
